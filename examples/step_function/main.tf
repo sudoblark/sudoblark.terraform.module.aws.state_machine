@@ -18,6 +18,4 @@ module "step_function" {
   application_name   = var.application_name
   environment        = var.environment
   raw_state_machines = local.raw_state_machines
-  vpc_config         = data.aws_vpc.current.id
-
 }

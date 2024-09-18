@@ -13,11 +13,6 @@ variable "application_name" {
   type        = string
 }
 
-variable "vpc_config" {
-  description = "AWS VPC ID"
-  type        = string
-}
-
 variable "raw_state_machines" {
   description = <<EOF
 
