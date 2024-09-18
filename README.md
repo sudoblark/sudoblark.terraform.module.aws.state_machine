@@ -107,7 +107,7 @@ REQUIRED
 
 OPTIONAL
 ---------
-- cloudwatch_retention  : How many days logs should be retained for in Cloudwatch, defaults to 90
+- cloudwatch_retention  : How many days logs should be retained for in Cloudwatch, defaults to 90gi
 ```
 
 ## Examples
