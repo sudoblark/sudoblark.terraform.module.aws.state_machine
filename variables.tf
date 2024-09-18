@@ -27,7 +27,7 @@ A list of dictionaries, where each dictionary has the following attributes:
 
 REQUIRED
 ---------
-- template_file         : Which file under application/state_machine_definition this machine corresponds to
+- template_file         : File path which this machine corresponds to
 - template_input        : A dictionary of key/value pairs, outlining in detail the inputs needed for a template to be instantiated
 - suffix                : Friendly name for the state function
 - iam_policy_statements : A list of dictionaries where each dictionary is an IAM statement defining glue job permissions

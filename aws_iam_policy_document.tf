@@ -31,6 +31,7 @@ locals {
               "arn:aws:logs:${data.aws_region.current_region.name}:${data.aws_caller_identity.current_account.account_id}:log-group:/aws/stepfunction/${format("%s-%s-%s-stepfunction", var.environment, var.application_name, state_machine.suffix)}",
               "arn:aws:logs:${data.aws_region.current_region.name}:${data.aws_caller_identity.current_account.account_id}:log-group:/aws/stepfunction/${format("%s-%s-%s-stepfunction", var.environment, var.application_name, state_machine.suffix)}:*"
             ]
+            conditions = []
           },
           {
             sid = "AllowCloudwatchLogDelivery",
@@ -44,7 +45,8 @@ locals {
               "logs:ListLogDeliveries",
               "logs:DescribeLogGroups"
             ],
-            resources = ["*"]
+            resources  = ["*"]
+            conditions = []
           }
         ]
       )
