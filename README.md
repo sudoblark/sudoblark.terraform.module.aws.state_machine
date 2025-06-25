@@ -1,4 +1,9 @@
 # sudoblark.terraform.module.aws.state_machine
+[![CI](https://github.com/sudoblark/sudoblark.terraform.module.aws.state_machine/actions/workflows/commit-to-pr.yaml/badge.svg)](https://github.com/sudoblark/sudoblark.terraform.module.aws.state_machine/actions/workflows/commit-to-pr.yaml)
+[![Terraform Version](https://img.shields.io/badge/Terraform-1.7%2B-blueviolet?logo=terraform)](https://developer.hashicorp.com/terraform/)
+[![Registry](https://img.shields.io/badge/registry-pending-lightgrey)](https://registry.terraform.io/)
+[![License](https://img.shields.io/github/license/sudoblark/sudoblark.terraform.module.aws.state_machine)](https://github.com/sudoblark/sudoblark.terraform.module.aws.state_machine/blob/main/LICENSE.txt)
+
 Terraform module to create N number of state machines with custom IAM policies.. - repo managed by sudoblark.terraform.github
 
 ## Developer documentation
